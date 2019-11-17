@@ -37,4 +37,5 @@ jobs:
       run: |
         source scripts/e2e-setup-ci.sh
         yarn dlx create-react-app my-cra-ts --typescript && cd my-cra-ts
+        yarn add react-scripts@next
         yarn build
